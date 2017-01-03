@@ -1,0 +1,228 @@
+h1 {
+    font-family: 'Passion One', cursive;
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    line-height: 0.8em;
+}
+
+h2 {
+    font-family: 'Hind', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Hind', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 0.9em;
+}
+
+h4 {
+    font-family: 'Hind', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/picture.jpg");
+    color: white;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+.row {
+    /*margin: 10px auto;*/
+}
+
+.role {
+    font-family: 'Hind', sans-serif;
+    text-align: center;
+    margin: 15px auto;
+    padding: 0;
+}
+
+.btn-default {
+    font-family: 'Hind', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.btn-circle {
+    border-radius: 50%;
+}
+
+span {
+    display: inline-block;
+}
+
+.fade1 {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: fadein 2s steps(40, end);
+  animation: fadein 2s steps(40, end);
+}
+
+.fade2 {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-animation: fadein 2s steps(40, end);
+  animation: fadein 2s steps(40, end);
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.fade3 {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-animation: fadein 2s steps(40, end);
+  animation: fadein 2s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.fade4 {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-animation: fadein 2s steps(40, end);
+  animation: fadein 2s steps(40, end);
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.student {
+    background-image: url("../img/student.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+}
+
+.student:hover {
+    background-image: url("../img/student.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.explorer {
+    background-image: url("../img/explorer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+}
+
+.explorer:hover {
+    background-image: url("../img/explorer.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+/* Typing Animation*/
+
+.typing1 {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: type 2.5s steps(40, end) alternate;
+  animation: type 2.5s steps(40, end) alternate;
+}
+
+.typing2 {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-animation: type 2.5s steps(40, end) alternate;
+  animation: type2 2.5s steps(40, end) alternate;
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+@-webkit-keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  from {
+    opacity: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  to {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}

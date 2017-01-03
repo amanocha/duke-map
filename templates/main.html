@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Duke MAP</title>
+    <meta charset="utf-8">
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hind:400,700|Passion+One:400,700" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel=stylesheet type=text/css>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="page-header">
+            <div class="text-center">
+                <h1><span class="fade1">Duke MAP</span></h1>
+                <h2><span class="fade2">Organizing research, promoting collaboration</span></h2>
+            </div>
+        </div>
+        <div class="main">
+            <div class="row">
+                <div class="role">
+                    <h3><span class="fade3">Select Your Role:</span></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="center">
+                        <h4><span class="fade4">Student</span></h4>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="center">
+                        <h4><span class="fade4">Explorer</span></h4>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="center">
+                        <h4><span class="fade4">Teacher</span></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="center">
+                        <button type="button" class="btn btn-default btn-circle student fade4"></button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="center">
+                        <button type="button" class="btn btn-default btn-circle explorer fade4"></button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="center">
+                        <button type="button" class="btn btn-default btn-circle student fade4"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/lib/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+</html>
